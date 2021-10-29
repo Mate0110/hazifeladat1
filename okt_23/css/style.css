@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #d7b520;
+}
+header{
+    border: 5px solid black;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+#fejleckep{
+    width: 100%;
+    
+}
+
+.tartalom{
+    width: 80%;
+    border: 2px #ddd solid;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 70px;
+    padding-top: 10px;
+}
+/*Menü*/
+#oldalsav{
+    width: 30%;
+    height: 1465px;
+    background-color: #5b9bd5;
+    float: left;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
+#menu_h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+nav{
+    padding-top: 5;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    
+    background-color: #5b9bd5;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: #5b9bd5;
+    text-align: center;
+    padding: 20px;
+}
+li a:hover{
+    background-color: darkblue;
+}
+
+#balaton{
+    width: 65%;
+    height: 450px;
+    background-color: #fbe5d6;
+    float: left;
+    margin-top: 5%;
+    border-radius: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+   
+}
+
+#tisza_to{
+    width: 65%;
+    height: 450px;
+    background-color: #fff2cc;
+    float: left;
+    margin-top: 3%;
+    border-radius: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#szelidi_to{
+    width: 65%;
+    height: 450px;
+    background-color: #deebf7;
+    float: left;
+    margin-top: 3%;
+    border-radius: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+footer{
+    
+    background-color: #e7e6e6;
+    float: left;
+    width: 100%;
+    height: 12rem;
+    margin-top: 3%;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+/*Form*/
+
+form{
+    padding: 20px;
+    
+}
+#form_name,
+#form_email,
+#form_phone_number,
+#form_to,
+#form_uzenet{
+    width: 100%;
+}
+
+#balaton_kep,
+#tisza_to_kep,
+#szelidi_to_kep{
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.to_szoveg{
+    padding: 10px;
+    margin-left: 6px;
+}
+
+.to_h2{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 120%;
+}
+
+#tisza_to_kep{
+    float: left;
+}
+
+#footer_szoveg{
+    text-align: center;
+    margin-top: 50px;
+}
